@@ -25,16 +25,16 @@ Port Assignment
 | Fa0/3 | VLAN 30 | Finance    |
 
 Config Commands:
--Create Vlan
-enable
-configure terminal
-vlan 10
-name ICT
-vlan 20
-name HR
-vlan 30
-name Finance
-end
+-Create Vlan:
+-enable
+-configure terminal
+-vlan 10
+-name ICT
+-vlan 20
+-name HR
+-vlan 30
+-name Finance
+-end
 
 -Port Assignment
 configure terminal
