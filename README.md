@@ -25,7 +25,7 @@ Port Assignment
 | Fa0/3 | VLAN 30 | Finance    |
 
 Config Commands:
--Create Vlan:
+=Create Vlan:
 -enable
 -configure terminal
 -vlan 10
@@ -36,21 +36,21 @@ Config Commands:
 -name Finance
 -end
 
--Port Assignment
-configure terminal
-interface fa0/1
-switchport mode access
-switchport access vlan 10
-interface fa0/2
-switchport mode access
-switchport access vlan 20
-interface fa0/3
-switchport mode access
-switchport access vlan 30
-end
+=Port Assignment
+-configure terminal
+-interface fa0/1
+-switchport mode access
+-switchport access vlan 10
+-interface fa0/2
+-switchport mode access
+-switchport access vlan 20
+-interface fa0/3
+-switchport mode access
+-switchport access vlan 30
+-end
 
 Verification:
-show vlan brief
+-show vlan brief
 
 Expected Output:
 VLAN Name                             Status    Ports
